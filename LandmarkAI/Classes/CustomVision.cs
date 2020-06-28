@@ -5,10 +5,10 @@ namespace LandmarkAI.Classes
 {
     public class CustomVision
     {
-        public string id { get; set; }
-        public string project { get; set; }
-        public string iteration { get; set; }
-        public DateTime created { get; set; }
-        public List<Prediction> predictions { get; set; }
+        public string Id { get; set; }
+        public string Project { get; set; }
+        public string Iteration { get; set; }
+        public DateTime Created { get; set; }
+        public List<Prediction> Predictions { get; set; }
     }
 }

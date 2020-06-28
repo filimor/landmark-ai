@@ -1,13 +1,9 @@
-﻿using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LandmarkAI.Classes
+﻿namespace LandmarkAI.Classes
 {
     public class Prediction
     {
-        public double probability { get; set; }
-        public string tagId { get; set; }
-        public string tagName { get; set; }
+        public double Probability { get; set; }
+        public string TagId { get; set; }
+        public string TagName { get; set; }
     }
 }
